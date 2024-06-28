@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blueDark"
+    android:background="@color/SeaGreen"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -21,10 +21,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome back"
+            android:gravity="center"
+            android:text="Welcome"
             android:textColor="@color/white"
-            android:textSize="24sp"
-            android:gravity="center"/>
+            android:textSize="24sp" />
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@color/DarkSeaGreen"
     android:padding="16dp"
     android:gravity="center_horizontal"
     tools:context=".PlayerActivity">
@@ -59,13 +59,19 @@
         android:id="@+id/song_subtitle_text_view"/>
 
     <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="8dp"
+        app:ad_marker_color="@color/DarkSeaGreen"
+        app:buffered_color="@color/DarkSeaGreen"
         app:hide_on_touch="false"
+        app:played_ad_marker_color="@color/DarkSeaGreen"
+        app:played_color="@color/DarkSeaGreen"
+        app:scrubber_color="@color/DarkSeaGreen"
         app:show_timeout="0"
-        android:id="@+id/player_view"
-        />
+        app:shutter_background_color="@color/DarkSeaGreen"
+        app:unplayed_color="@color/DarkSeaGreen" />
 
 
 
