@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "861231761382",
+    "firebase_url": "https://streammusic-4067c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "streammusic-4067c",
+    "storage_bucket": "streammusic-4067c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861231761382:android:ba9b24af8302905ada7827",
+        "android_client_info": {
+          "package_name": "com.pab.streammusic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlDNTJhTIXb0nn4Jm363QGBwEGu6b_GNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
